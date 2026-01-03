@@ -12,7 +12,7 @@ class TwoSum{
         return new int[]{-1,-1};
     }
     public static void main(String[] args) {
-        int arr[]={2,3,3,5,3,4,1};
+        int arr[]={3,2,4,1,6,9,7};
         int target=9;
         System.out.println(Arrays.toString(TSP(arr,target)));
     }
