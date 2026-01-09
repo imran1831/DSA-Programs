@@ -12,7 +12,7 @@ class Palindromic_Array{
         return true;
     }
     public static void main(String[] args) {
-        int arr[]={1,2,3,5,1};
+        int arr[]={1,2,3,2,1};
         System.out.println(isPalindrome(arr));
     }
 }
