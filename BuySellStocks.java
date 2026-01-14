@@ -1,11 +1,15 @@
 public class BuySellStocks {
-    public static int[] caluclat(int[] prices){
-        int i=0;
-        // while()
-        return prices;
+    public static int maxPrice(int[] prices){
+        int profit = 0;
+        for (int i = 1; i < prices.length; i++) {
+            if (prices[i] > prices[i - 1]) {
+                profit += prices[i] - prices[i - 1];
+            }
+        }
+        return profit;
     }
     public static void main(String[] args) {
-        int[] arr={2,4,6,3,2,8};
-        caluclat(arr);
+        int[] arr={100, 180, 260, 310, 40, 535, 695};
+        System.out.println(maxPrice(arr));
     }
 }
