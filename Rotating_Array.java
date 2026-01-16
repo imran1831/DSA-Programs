@@ -18,7 +18,7 @@ class Rotating_Array{
         }
     }
     public static void main(String[] args) {
-        int[] arr={6,7,8,9,10};
+        int[] arr={3,4,5,6,7,8,9};
         int k=2;
         System.out.println(Arrays.toString(rotateArr(arr,k)));
     }
