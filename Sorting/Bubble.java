@@ -14,7 +14,7 @@ public class Bubble {
         return nums;
     }
     public static void main(String[] args) {
-        int[] nums={3,2,5,8,6,1};
+        int[] nums={4,6,7,1,3,2};
         System.out.println(Arrays.toString(bubbleSort(nums)));
     }
 }
