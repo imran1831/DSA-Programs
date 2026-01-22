@@ -5,8 +5,8 @@ public class KadanesAlg {
         int maxSum=arr[0];
         for(int i=1;i<arr.length;i++){
             currentSum=Math.max(arr[i],currentSum+arr[i]);
-            maxSum=Math.max(maxSum,currentSum);  
-        } 
+            maxSum=Math.max(maxSum,currentSum);
+        }
         return maxSum;
     }
     public static void main(String[] args) {
