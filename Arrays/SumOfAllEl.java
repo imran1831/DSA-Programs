@@ -7,10 +7,10 @@ public class SumOfAllEl {
     }
     public static void main(String[] args) {
         int[] nums = {1, 2, 3, 4};
-        int[] result = runningSum(nums);
+        int[] result = runningSum(nums);//Obj for the method
         System.out.print("Running Sum: ");
         for (int num : result) {
-            System.out.print(num + " ");
+            System.out.print(num + " ");//Printing The Sum of Elements
         }
     }
 }
