@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main {
+public class DupAndMis {
     public static int[] findErrorNums(int[] nums) {
         int rep = 0;
         int mis = 0;
