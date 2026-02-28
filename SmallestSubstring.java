@@ -31,7 +31,7 @@ public class SmallestSubstring {
         return minLen==Integer.MAX_VALUE?"":s.substring(start,minLen+start);
     }
     public static void main(String[] args) {
-        String s="aaabcbc";
+        String s="aaabcbbc";
         String t="abc";
         System.out.println(smallString(s,t));
     }
