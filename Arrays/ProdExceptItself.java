@@ -1,7 +1,7 @@
 import java.util.Arrays;
 public class ProdExceptItself {
         public static void main(String[] args) {
-        int[] nums = {1,2,3,5};
+        int[] nums = {1,2,3,4};
         int n = nums.length;
         int[] result = new int[n];
         int prefix = 1;
