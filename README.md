@@ -113,6 +113,20 @@ Tracking both maximum and minimum product because:
 
 Negative × Negative = Positive
 
+7.prefix sum
+
+Prefix Sum is a technique used to efficiently calculate the sum of elements in a range of an array. Instead of recalculating the sum every time for a query, we precompute cumulative sums so that any range sum can be obtained in constant time.
+The prefix sum array stores the sum of all elements from the beginning of the array up to a specific index.
+
+Prefix formula:
+prefix[i] = prefix[i-1] + arr[i]
+
+This allows fast computation of subarray sums.
+
+To get the sum of elements from index L to R:
+
+sum(L, R) = prefix[R] - prefix[L-1]
+
 🛠️ Skills Developed
 
 ✔ Writing optimized solutions
