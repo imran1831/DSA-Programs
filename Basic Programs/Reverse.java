@@ -11,5 +11,4 @@ public class Reverse {
         int n=546;
         System.err.println(revFun(n));
     }
-
 }
