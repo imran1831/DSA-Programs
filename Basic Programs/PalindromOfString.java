@@ -8,10 +8,8 @@ public class PalindromOfString {
                 System.out.println(s + " is not a Palindrome");
                 return;
             }
-            else{
-                l++;
-                r--;
-            }
+            l++;
+            r--;
         }
         System.out.println(s + " is a Palindrome");
     }
