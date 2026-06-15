@@ -14,7 +14,6 @@ public class LongestSubstring {
             maxLen=Math.max(maxLen,right-left+1);
         }
         return maxLen;
-        
     }
     public static void main(String[] args) {
         String s = "abcdabcbb";
