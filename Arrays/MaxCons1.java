@@ -4,7 +4,6 @@ public class MaxCons1 {
         int zeroCount = 0;
         int maxLen = 0;
         for (int right = 0; right < nums.length; right++) {
-
             if (nums[right] == 0) {
                 zeroCount++;
             }
@@ -14,7 +13,6 @@ public class MaxCons1 {
                 }
                 left++;
             }
-
             maxLen = Math.max(maxLen, right - left + 1);
         }
         return maxLen;
