@@ -13,10 +13,8 @@ public class MinHeight {
 
             int minHeight = Math.min(arr[0] + k, arr[i] - k);
             int maxHeight = Math.max(arr[i - 1] + k, arr[n - 1] - k);
-
             ans = Math.min(ans, maxHeight - minHeight);
         }
-
         return ans;
     }
     public static void main(String[] args) {
