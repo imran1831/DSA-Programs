@@ -20,7 +20,7 @@ public class Anagram {
     }
     public static void main(String[] args) {
         String s="cbaebabacd";
-        String t="abc";
+        String t="abcd";
         System.out.println(findAnagrams(s,t));
     }
 }
